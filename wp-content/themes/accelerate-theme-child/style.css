@@ -24,8 +24,14 @@
 .button {
 	background: none repeat scroll 0 0 #45ac9d;
 }
+
+/* blog post on homepage*/
+
+.recent-posts{
+	overflow: hidden;
+}
 .blog-post {
-	width: 50%;
+	width: 44.75%;
 	float: left;
 	margin-bottom: 2em;
 }
@@ -35,12 +41,11 @@
     text-transform: uppercase;
     margin: 2em 0 .5em;
 }
-.blog-post h3 {
+.blog-post h2 {
 	font-size: 1.5em;
 }
-.read-more-link {
-	font-family: 'Montserrat';
-	font-weight: 700;
+.blog-post .read-more-link {
+	font: 700 15px 'Montserrat';
 	color: #45ac9d;
 	text-transform: uppercase;
 }
