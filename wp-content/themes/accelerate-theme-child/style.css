@@ -27,13 +27,14 @@
 
 /* blog post on homepage*/
 
-.recent-posts{
-	overflow: hidden;
+
 }
 .blog-post {
-	width: 44.75%;
+	width: 50%;
 	float: left;
+	padding-right: 50px;
 	margin-bottom: 2em;
+	margin-top: 100px;
 }
 .blog-post h4 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
@@ -49,3 +50,24 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Case Studies*/
+
+aside.case-study-sidebar{
+	float: left;
+	width: 306px;
+}
+
+div.case-study-images{
+	float:left;
+	width: 606px;
+}
+}
+
