@@ -21,6 +21,11 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+#masthead nav ul li{
+	float: left;
+	margin: 0 10px;
+}
+
 .button {
 	background: none repeat scroll 0 0 #45ac9d;
 }
@@ -37,7 +42,7 @@
 	margin-top: 100px;
 }
 .blog-post h4 {
-    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font: 300 15px 'Montserrat';
     color: #a6a6a6;
     text-transform: uppercase;
     margin: 2em 0 .5em;
@@ -46,28 +51,44 @@
 	font-size: 1.5em;
 }
 .blog-post .read-more-link {
-	font: 700 15px 'Montserrat';
+	font: 300 15px 'Montserrat';
 	color: #45ac9d;
 	text-transform: uppercase;
 }
 
 .read-more-link {
 	font-family: 'Montserrat';
-	font-weight: 700;
+	font-weight: 300;
 	color: #45ac9d;
 	text-transform: uppercase;
 }
 
 /* Case Studies*/
+article.case-study{
+	margin: 0 40px 0 0;
+}
 
 aside.case-study-sidebar{
 	float: left;
-	width: 306px;
+    width: 300px;
+    margin: 0 40px 0 -40px;
+    
 }
 
 div.case-study-images{
 	float:left;
 	width: 606px;
+	/*margin-left: 20px;*/
+
 }
+
+div.case-study-images img{
+	
+	
+	border: 1px solid #dddddd;
+
+	
+}
+
 
 
