@@ -1,7 +1,4 @@
-<?php
-/**
- * The template for displaying the homepage
- *
+
  <?php
 /**
  * The template for displaying the homepage
@@ -51,10 +48,6 @@ get_header(); ?>
          <?php endwhile; ?> 
        <?php wp_reset_query(); ?>
     </ul>
-
-
-
-
 
  <section class="recent-posts">
    <div class="site-content">
