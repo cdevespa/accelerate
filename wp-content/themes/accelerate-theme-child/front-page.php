@@ -31,16 +31,16 @@ get_header(); ?>
     <ul class="homepage-featured-work">
     <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
          <?php while ( have_posts() ) : the_post(); 
-              $image_1 = get_field("image_1");
-              $image_2 = get_field('image_2');
-              $image_3 = get_field('image_3');
+              $featured_image_1 = get_field('featured_image_1');
+              $featured_image_2 = get_field('featured_image_2');
+              $featured_image_3 = get_field('featured_image_3');
               $size = "medium"
           ?>
         <li class="individual-featured-work">
           <figure>
-            <?php echo wp_get_attachment_image($image_1, $size); ?>
-            <?php echo wp_get_attachment_image($image_2, $size); ?>
-            <?php echo wp_get_attachment_image($image_3, $size); ?>
+            <?php echo wp_get_attachment_image($featured_image_1, $size); ?>
+            <?php echo wp_get_attachment_image($featured_image_2, $size); ?>
+            <?php echo wp_get_attachment_image($featured_image_3, $size); ?>
           </figure>
 
         </li>
