@@ -13,7 +13,7 @@
  */
 
 
-$size="full";
+
 get_header(); ?>
 
 
