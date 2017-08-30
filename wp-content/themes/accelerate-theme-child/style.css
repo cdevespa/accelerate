@@ -33,7 +33,7 @@
 /* blog post on homepage*/
 
 
-}
+
 .blog-post {
 	width: 50%;
 	float: left;
@@ -78,6 +78,7 @@ aside.case-study-sidebar{
 div.case-study-images{
 	float:left;
 	width: 606px;
+	height:auto;
 	/*margin-left: 20px;*/
 
 }
@@ -86,9 +87,28 @@ div.case-study-images img{
 	
 	
 	border: 1px solid #dddddd;
-
+	margin-bottom: 40px;
 	
 }
+
+/* featured work*/
+
+div .site-content {
+	
+	display: inline;
+	
+
+}
+
+div.site-content h4{
+	color: blue;
+}
+
+ul .homepage-featured-work {
+
+
+}
+
 
 
 
