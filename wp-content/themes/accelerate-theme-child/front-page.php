@@ -39,7 +39,9 @@ get_header(); ?>
         <li class="individual-featured-work">
           <figure>
             <?php echo wp_get_attachment_image($featured_image_1, $size); ?>
+          
             <?php echo wp_get_attachment_image($featured_image_2, $size); ?>
+           
             <?php echo wp_get_attachment_image($featured_image_3, $size); ?>
           </figure>
 

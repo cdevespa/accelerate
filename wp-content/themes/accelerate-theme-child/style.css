@@ -93,21 +93,32 @@ div.case-study-images img{
 
 /* featured work*/
 
-div .site-content {
-	
-	display: inline;
-	
+ 
 
+
+.featured-work .site-content {
+ 	display: block;
+    text-align: center;
 }
 
-div.site-content h4{
-	color: blue;
+li{
+	list-style-type: none;
 }
 
-ul .homepage-featured-work {
-
-
+.site-content .individual-featured-work figure{
+		display: -webkit-box;
+	   display: -moz-box;
+	   display: -ms-flexbox;
+	   display: -webkit-flex;
+	   display: flex;
+	   flex-flow: row nowrap;
+	   justify-content: space-between;
 }
+
+
+
+
+
 
 
 
