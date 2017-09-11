@@ -141,10 +141,80 @@ aside.case-study-sidebar a{
 		color: #45ac9d;
 }
 
-/*Homepage footer*/
-.site-footer {
-	border-top: none;
 
+/*contact form*/
+
+.contact-form{
+		margin: 0 90px;
+		width: 60%;
+}
+ .contact-form .nf-field-label label {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+
+ .main-content h2{
+	font-weight: 200;
+	font-style: bold;
+	color: #000;
+}
+
+
+.main-content p{
+	margin-bottom: 50px;
+	color: #3b3c3d;
+	font-size: .80em;
+}
+
+.field-wrap button, .field-wrap input[type=button], .field-wrap input[type=submit] {
+    width: auto;
+    float: right;
+}
+
+.field-wrap button, .field-wrap input[type=button], .field-wrap input[type=submit] {
+    width: auto;
+    background-color: #45ac9d;
+}
+
+/* about-page*/
+
+.about-page   {
+    background: url("img/half-taxi.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    margin: 0 0 1em;
+    
+}
+
+.about-page  h2{
+	color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top:140px;
+    font-size: 1.5em;
+    font-weight: 100px;
+    line-height: 1.2em;
+}
+.about-page h2{
+	position: relative;
+	bottom: 90px;
+}
+
+ 
+
+/* About Page Services Section*/
+
+.site-content .services h4{
+	color:red;
+	margin-left:350px;
+
+}
+
+/*ABOUTpage footer*/
+.site-footer {
+	border-top: 1px solid black;
+}
 
 
 
