@@ -47,8 +47,9 @@ get_header(); ?>
         </li>
         <div>
          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-         <?php endwhile; ?> 
          </div>
+         <?php endwhile; ?> 
+
        <?php wp_reset_query(); ?>
 
     </ul>
