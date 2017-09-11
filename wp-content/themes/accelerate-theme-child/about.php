@@ -42,11 +42,13 @@ get_header(); ?>
         <li class="individual-featured-services">
           <figure>
             <?php echo wp_get_attachment_image($image_1, $size); ?>
-          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+         
           </figure>
         </li>
-        
+        <div>
+         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
          <?php endwhile; ?> 
+         </div>
        <?php wp_reset_query(); ?>
 
     </ul>
