@@ -40,13 +40,14 @@ function create_custom_post_types() {
     register_post_type( 'page_about',
         array(
             'labels' => array(
-                'name' => __( 'About' ),
-                'singular_name' => __( 'About' )
+                'name' => __( 'Page About' ),
+                'singular_name' => __( 'Page About' )
             ),
             'public' => true,
             'has_archive' => false,
-            'rewrite' => array( 'slug' => 'page_about' ),
+            'rewrite' => array( 'slug' => 'page-about' ),
         )
     );
+
 }
 add_action( 'init', 'create_custom_post_types' );
