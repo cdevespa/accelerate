@@ -230,48 +230,38 @@ ul.aboutpage-featured-services img{
 
 /* 404 */
 
-
-
-
-div .parent{
-	display:flex;
-	flex-direction: column;
-	width: 900px;
-	height: 900px;
-	border: 5px solid red;
-	padding:0;
+#main-content .fourofour-container{
+	display: flex;
+	justify-content: center;
+	background-color: black;
 }
 
-.item{
-	height: 50px;
-	width: 150px;
-	margin: 5px;
-	background: deepskyblue;
-	color: white;
-	text-align: center;
-	line-height: 50px;
-	font-weight: 600;
+#post-0 h1{
+	color: blue;
+	font-size: 2em;
+  	z-index: 10;
+  	position: absolute;
+  	font-weight: bold;
+  	left: 250px;
+  	top: 100px;
 }
 
+#post-0 p{
+	color: #ff9900;
+	font-size: 1em;
+  	z-index: 9;
+  	position: absolute;
+  	font-weight: bold;
+  	left: 250px;
+  	top: 250px;
+  }
 
-.item-1 h1{
-color: lightgreen;
-text-align: center;
 
 
 
 
-}
-.item-2 p{
-	color:orange;
-	text-align: center;
-	
-}
 
-.item-3{
-	
-	text-align: right;
-}
+
 
 /*ABOUTpage footer*/
 .site-footer {
