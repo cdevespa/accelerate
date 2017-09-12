@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: page about
+ * Template Name: page-about
  * The template for displaying about page
  * This is the template that displays the about page
  *
@@ -28,32 +28,34 @@ get_header(); ?>
  		<div class="site-content">
  			<div class="services">
  				<h4>Our Services</h4>
- 				
  					<ul class="aboutpage-featured-services">
  						
     					<?php query_posts('post_type=services'); ?> 
          				<?php while ( have_posts() ) : the_post();
-							$image_1 = get_field("image_1");
-                			$size="medium"; ?>
+							$service_image_1 = get_field("service_image_1");
+                			$size="small"; ?>
+           				<li class="individual-featured-services">
 
-             
-           <li class="individual-featured-services">
+ 							<figure class="service-images">
 
- 				<figure>
-   					<?php echo wp_get_attachment_image($image_1, $size); ?>
+ 				  		<?php 
+   							echo wp_get_attachment_image($service_image_1, $size); 
+   					 	?>
 
- 				</figure>
- 			<div>
+ 						</figure>
+ 					<div>
 
-   				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3><?php the_content();?>
+   					  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3><?php the_content();?>
 
- 			</div>
-		</li>
-					<?php endwhile; ?> 
-       	
-       	</ul>			<?php wp_reset_query(); ?>
-  	  </div>
-  	</div>
-  </section>
+ 					</div>
+				</li>
+						<?php endwhile; ?> 
+       		</ul>
+       	  </div>			<?php wp_reset_query(); ?>
+  		</div>
 
-				<?php get_footer(); ?>
+  	</section>
+
+
+
+						<?php get_footer(); ?>
