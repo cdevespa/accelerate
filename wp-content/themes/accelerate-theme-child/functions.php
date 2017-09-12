@@ -37,17 +37,32 @@ function create_custom_post_types() {
         )
     );
 
-    register_post_type( 'page_about',
+    register_post_type( 'services',
         array(
             'labels' => array(
-                'name' => __( 'Page About' ),
-                'singular_name' => __( 'Page About' )
+                'name' => __( 'Services' ),
+                'singular_name' => __( 'service' )
             ),
             'public' => true,
             'has_archive' => false,
-            'rewrite' => array( 'slug' => 'page-about' ),
+            'rewrite' => array( 'slug' => 'services' ),
         )
     );
 
 }
 add_action( 'init', 'create_custom_post_types' );
+
+function widget_area_404() {
+ 
+    register_sidebar( array(
+        'name' => '404 Page',
+        'id' => '404',
+        'description'  => __( 'Widgets placed here will be shown on the 404 Not Found.' ),
+        'before_widget' => '<div class="et_pb_post">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4 class="widgettitle">',
+        'after_title' => '</h4>',
+    ) );
+}
+add_action( 'widgets_init', 'widget_area_404' );
+
