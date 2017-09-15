@@ -50,7 +50,7 @@ function create_custom_post_types() {
     );
 
 }
-add_action( 'init', 'create_custom_post_types' );
+/*add_action( 'init', 'create_custom_post_types' );
 
 function widget_area_404() {
  
@@ -64,5 +64,5 @@ function widget_area_404() {
         'after_title' => '</h4>',
     ) );
 }
-add_action( 'widgets_init', 'widget_area_404' );
+add_action( 'widgets_init', 'widget_area_404' );*/
 
