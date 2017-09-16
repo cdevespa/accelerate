@@ -22,31 +22,27 @@ get_header(); ?>
    			</div><!-- .main-content -->
  		</div><!-- #primary -->
 
-
-
  	<section class="service-posts">
  		<div class="site-content">
  			<div class="services">
  				<h4>Our Services</h4>
- 					<ul class="aboutpage-featured-services">
+        <p>We take pride in our clients and the content we create for them.<br>Here's a brief overview of our offered services.</p>
+ 					
  						
     					<?php query_posts('post_type=services'); ?> 
          				<?php while ( have_posts() ) : the_post();
 							$service_image_1 = get_field("service_image_1");
                 			$size="small"; ?>
-           				<li class="individual-featured-services">
-
+           <section class="aboutpage-featured-services">
+            <ul class="individual-services">
+              <li class="children">
  							<figure class="service-images">
-
  				  		<?php 
    							echo wp_get_attachment_image($service_image_1, $size); 
    					 	?>
-
  						</figure>
  					<div>
-
    					  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3><?php the_content();?>
-
  					</div>
 				</li>
 						<?php endwhile; ?> 

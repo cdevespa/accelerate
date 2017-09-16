@@ -205,7 +205,7 @@ aside.case-study-sidebar a{
 
 /* About Page Services Section*/
 
-.site-content .services p{
+.site-content .services h4{
 	display:flex;
 	color:red;
 	/*margin-left:350px;*/
@@ -214,21 +214,19 @@ aside.case-study-sidebar a{
 }
 
 .site-content .services p{
-	color: blue;
+	
 	text-align: center;
 }
 
-.aboutpage-featured-services-l h3{
- 	color:red;
+  .individual-services.children li:nth-child(even){
+ 	color:purple;
 }
 
-ul.aboutpage-featured-services p{
-	color:blue;
-}
 
-ul.aboutpage-featured-services img{
-	margin: 100px;
-	float: right;
+
+
+.aboutpage-featured-services p{
+	
 }
 
  div .item-1{
@@ -281,14 +279,14 @@ div .search-form{
 }
 
 
-
-
-
-
-
-/*ABOUTpage footer*/
+/* footer*/
 .site-footer {
 	border-top: 1px solid black;
+}
+
+.site-footer ul{
+	position:absolute;
+	right: 12%;
 }
 
 
