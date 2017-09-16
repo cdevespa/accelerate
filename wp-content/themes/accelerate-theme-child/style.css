@@ -218,7 +218,7 @@ aside.case-study-sidebar a{
 	text-align: center;
 }
 
-  .individual-services.children li:nth-child(even){
+ li.individual-services.children:nth-child(even){
  	color:purple;
 }
 
@@ -229,15 +229,9 @@ aside.case-study-sidebar a{
 	
 }
 
- div .item-1{
- 		width: 100px;
- 		height:100px;
- 		border: 2px solid red;
-}
+ 
 
-/*.services{
-	background-color: pink;
-}*/
+
 
 /* 404 */
 
