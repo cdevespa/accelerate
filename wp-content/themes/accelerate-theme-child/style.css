@@ -218,16 +218,19 @@ aside.case-study-sidebar a{
 	text-align: center;
 }
 
- li.individual-services.children:nth-child(even){
- 	color:purple;
+ .individual-services li:nth-child(odd){
+ 	color: red;
+ }
+.individual-services img{
+	float: right;
 }
 
 
 
 
-.aboutpage-featured-services p{
+
 	
-}
+
 
  
 

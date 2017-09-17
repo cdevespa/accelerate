@@ -45,12 +45,16 @@ get_header(); ?>
    					  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3><?php the_content();?>
  					</div>
 				</li>
+      </ul>
+    </section>
 						<?php endwhile; ?> 
-       		</ul>
-       	  </div>			<?php wp_reset_query(); ?>
+       		
+       	  
+          			<?php wp_reset_query(); ?>
+        </div>
   		</div>
 
-  	</section>
+  	
 
 
 
