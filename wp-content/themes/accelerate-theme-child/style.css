@@ -218,18 +218,48 @@ aside.case-study-sidebar a{
 	text-align: center;
 }
 
- .individual-services li:nth-child(odd){
- 	color: red;
+ /*.individual-services li figure:{
+ 	float:left;
+ 	margin: 29% 12.7% 11.5% 12.7%;
  }
-.individual-services img{
-	float: right;
+
+.individual-services li:nth-child(odd) figure {
+ 	float:right;
+}*/
+
+.service-types{
+	width: 100%;
+	margin-top: 40px;
 }
+.service-types figure{
+ float: left;
+ margin-right: 5%;
+ }
 
 
+.service-types:nth-child(even) figure{
+ 		float: right;
+ 		margin-right:5%;
+ 		background-color: yellow;
+ }
 
+ .service-types .service-content h2{
+ 		font-weight: 300;
+ 		background-color: pink;
+ 		width: 30%;
+ 		float:left;
 
+ 		
+ }
 
-	
+ .service-content p{
+ 		float:left;
+ 		text-align: right;
+ 		background-color: pink;
+ 		width: 60%;
+ 				
+ }
+
 
 
  

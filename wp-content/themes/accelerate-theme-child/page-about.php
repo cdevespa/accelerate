@@ -33,20 +33,16 @@ get_header(); ?>
          				<?php while ( have_posts() ) : the_post();
 							$service_image_1 = get_field("service_image_1");
                 			$size="small"; ?>
-           <section class="aboutpage-featured-services">
-            <ul class="individual-services">
-              <li class="children">
- 							<figure class="service-images">
- 				  		<?php 
-   							echo wp_get_attachment_image($service_image_1, $size); 
-   					 	?>
- 						</figure>
- 					<div>
-   					  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3><?php the_content();?>
- 					</div>
-				</li>
-      </ul>
-    </section>
+  <section class="service-types">
+      <figure>
+              <?php echo wp_get_attachment_image($service_image_1, $size); ?>
+      </figure>
+    <div class = "service-content">
+        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        <?php the_content(); ?>
+    </div>
+</section>
+
 						<?php endwhile; ?> 
        		
        	  
