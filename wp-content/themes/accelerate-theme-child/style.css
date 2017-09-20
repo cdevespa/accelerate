@@ -222,13 +222,13 @@ aside.case-study-sidebar a{
 .service-types{
 	width: 100%;
 	margin-top: 5%;
-
 }
+
 .service-types figure{
  float: left;
  margin-right: 12.9%;
- margin-top: 8%;
- margin-bottom: 1%;
+ margin-top: 8.33%;
+ margin-bottom: 0;
  background-color: blue;
  }
 
@@ -242,22 +242,21 @@ aside.case-study-sidebar a{
  }
 
   .service-types h2 a{
- 		font-weight: 300;
+ 		font-weight: 400;
  		background-color: yellow;
  		width: 30%;
  		float:left;
- 		margin-top: 12%;
+ 		margin-top: 10.6%;
  		
  }
 
   .service-types:nth-child(even) h2 a{
   
-		margin-bottom: 1%;
+		margin-bottom: 0;
 		text-align: left;
 		background-color: orange;
 		clear:left;
-		margin-top: 12.9%;
-
+		margin-top: 13.5%;
 }
 
 
@@ -266,10 +265,11 @@ aside.case-study-sidebar a{
  		background-color: green;
  		width: 64%;
  		margin-top: 1%;
- 		margin-bottom: 20%;
+ 		margin-bottom: 2%;
  		padding:0;
  		text-align: left;
- 				
+
+
  }
 
 .service-types:nth-child(even) p{
