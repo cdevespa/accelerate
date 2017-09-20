@@ -207,7 +207,7 @@ aside.case-study-sidebar a{
 
 .site-content .services h4{
 	display:flex;
-	color:red;
+	/*color:red;*/
 	justify-content: center;
 	margin-top: 8%;
 
@@ -221,29 +221,32 @@ aside.case-study-sidebar a{
 
 .service-types{
 	width: 100%;
-	margin-top: 5%;
+	margin: 0;
 }
 
 .service-types figure{
- float: left;
- margin-right: 12.9%;
- margin-top: 8.33%;
- margin-bottom: 0;
- background-color: blue;
+	display:flex;
+	align-items: center;
+ 	float: left;
+ 	margin-right: 5%;
+ 	margin-top: 8.33%;
+ 	margin-bottom: 0;
+ 	/*background-color: blue;*/
  }
 
 .service-types:nth-child(even) figure{
+ 		display: flex;
+ 		align-items: center;
  		float: right;
- 		margin-right:0;
- 		background-color: yellow;
+ 		/*background-color: yellow;*/
  		margin-top: 20%;
- 		margin-bottom: 10%
+ 		margin-bottom: 10%;
 
  }
 
   .service-types h2 a{
  		font-weight: 400;
- 		background-color: yellow;
+ 		/*background-color: yellow;*/
  		width: 30%;
  		float:left;
  		margin-top: 10.6%;
@@ -254,18 +257,20 @@ aside.case-study-sidebar a{
   
 		margin-bottom: 0;
 		text-align: left;
-		background-color: orange;
+		/*background-color: orange;*/
 		clear:left;
-		margin-top: 13.5%;
+		margin-top: 13.52%;
 }
 
 
- .service-types p{
+ .service-types .service-content p{
  		float:left;
- 		background-color: green;
- 		width: 64%;
+ 		/*background-color: green;*/
+ 		width: 60%;
  		margin-top: 1%;
- 		margin-bottom: 2%;
+ 		margin-left: 0;
+
+ 		/*margin-bottom: 2%;*/
  		padding:0;
  		text-align: left;
 
@@ -276,7 +281,7 @@ aside.case-study-sidebar a{
 		margin-bottom: 15%;
 		text-align: left;
 		width: 58.3%;
-		background-color: tan;
+		/*background-color: tan;*/
 }
  
 
