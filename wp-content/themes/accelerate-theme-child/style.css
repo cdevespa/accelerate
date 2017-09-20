@@ -236,17 +236,17 @@ aside.case-study-sidebar a{
  		float: right;
  		margin-right:0;
  		background-color: yellow;
- 		margin-top: 12%;
- 		margin-bottom: 12.9%
+ 		margin-top: 20%;
+ 		margin-bottom: 10%
 
  }
 
   .service-types h2 a{
  		font-weight: 300;
  		background-color: yellow;
- 		width: 28%;
+ 		width: 30%;
  		float:left;
- 		margin-top: 12.9%;
+ 		margin-top: 12%;
  		
  }
 
@@ -263,16 +263,17 @@ aside.case-study-sidebar a{
 
  .service-types p{
  		float:left;
- 		text-align: left;
  		background-color: green;
- 		width: 45%;
+ 		width: 64%;
  		margin-top: 1%;
+ 		margin-bottom: 20%;
  		padding:0;
+ 		text-align: left;
  				
  }
 
 .service-types:nth-child(even) p{
-		margin-bottom: 5%;
+		margin-bottom: 15%;
 		text-align: left;
 		width: 58.3%;
 		background-color: tan;
