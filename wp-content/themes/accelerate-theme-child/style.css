@@ -41,6 +41,7 @@
 	padding-right: 50px;
 	margin-bottom: 2em;
 	margin-top: 10px;
+	
 }
 
 .blog-post h4 {
@@ -73,6 +74,65 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/*twitter module*/
+
+ .widget-area {
+	width: 40%;
+	float: right;
+	margin: 0 15px;
+	padding-right: 50px;
+	margin-bottom: 2em;
+	position: relative;
+	left:5%;
+	top:-16em;
+	
+
+
+}
+
+ul #secondary.widget-area{
+	float: left;
+	
+}
+.widget-area ul{
+	
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+
+}
+
+aside{
+	display:flex;
+	flex-direction: column;
+
+}
+
+aside  h3{		
+	margin-top: -.95em;
+	font-size: 1.25em;
+	font-style: bold;
+
+}
+
+aside ul{
+	
+}
+
+ .sidebar-content h5{
+	color: grey;
+    position: relative;
+    top: -24em;
+    right: 35%;
+    float: right;
+    font-size: .88em;
+    font-weight: 500;
+    margin-bottom: 1%;
+}
+
+
+
 
 /* Case Studies*/
 article.case-study{
@@ -206,22 +266,24 @@ aside.case-study-sidebar a{
 /* About Page Services Section*/
 
 .site-content .services h4{
-	display:flex;
+	/* display:flex; */
 	/*color:red;*/
-	justify-content: center;
-	margin-top: 8%;
+	/* justify-content: center;
+	margin-top: 8%; */
 
 }
 
-.site-content .services p{
-	
+.site-content .services-intro {
 	text-align: center;
+	margin-top: 8%;
 	margin-bottom: 5%;
 }
 
 .service-types{
 	width: 100%;
 	margin: 0;
+	overflow: auto;
+	margin-bottom: 2em;
 }
 
 .service-types figure{
@@ -229,28 +291,28 @@ aside.case-study-sidebar a{
 	align-items: center;
  	float: left;
  	margin-right: 10%;
- 	margin-top: 8.33%;
+ 	margin-top: 5%;
  	margin-bottom: 0;
  	/*background-color: blue;*/
  }
 
 .service-types:nth-child(even) figure{
- 		display: flex;
- 		align-items: center;
- 		float: right;
+ 		/* display: flex; */
+ 		/* align-items: center; */
+		 float: right;
  		/*background-color: yellow;*/
- 		margin-top: 20%;
- 		margin-bottom: 10%;
- 		margin-right: 0;
+ 		/* margin-top: 20%; */
+ 		/* margin-bottom: 10%;
+ 		margin-right: 0; */
 
  }
 
   .service-types h2 a{
  		font-weight: 400;
  		/*background-color: yellow;*/
- 		width: 30%;
- 		float:left;
- 		margin-top: 10.6%;
+ 		/* width: 30%;
+ 		float:left; */
+ 		/* margin-top: 10.6%; */
  		
  }
 
@@ -259,32 +321,30 @@ aside.case-study-sidebar a{
 		margin-bottom: 0;
 		text-align: left;
 		/*background-color: orange;*/
-		clear:left;
-		margin-top: 13.52%;
+		/* clear:left;
+		margin-top: 13.52%; */
 }
 
 
- .service-types .service-content p{
+	.service-types .service-content {
  		float:left;
  		/*background-color: green;*/
  		width: 60%;
  		margin-top: 1%;
  		margin-left: 0;
-
  		/*margin-bottom: 2%;*/
  		padding:0;
  		text-align: left;
-
-
  }
 
 .service-types:nth-child(even) p{
-		margin-bottom: 15%;
+		/* margin-bottom: 15%; */
 		text-align: left;
-		width: 58.3%;
+		/* width: 58.3%; */
 		/*background-color: tan;*/
 
 }
+ 
  
 
 

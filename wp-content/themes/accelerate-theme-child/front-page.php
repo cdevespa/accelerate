@@ -32,18 +32,19 @@ get_header(); ?>
     <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
          <?php while ( have_posts() ) : the_post(); 
               $image_1 = get_field("image_1");
-              $size = "medium";
-          ?>
+              $size = "medium"; ?>
         <li class="individual-featured-work">
           <figure>
             <?php echo wp_get_attachment_image($image_1, $size); ?>
-          
-          </figure>
           <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+          </figure>
+          
         </li>
          <?php endwhile; ?> 
        <?php wp_reset_query(); ?>
     </ul>
+  </div>
+  </section>
 
  <section class="recent-posts">
    <div class="site-content">
@@ -55,9 +56,23 @@ get_header(); ?>
           <?php the_excerpt(); ?> 
          <?php endwhile; ?> 
        <?php wp_reset_query(); ?>
+
      </div>
    </div>
- </section>
+  </section>
 
+   <section class="sidebar-2">
+    <div class="sidebar-content">
+      <h5>Recent Tweet</h5>
+      <div class="recent-posts">
+        
+        <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+    <ul id="secondary" class="widget-area" role="complementary">
+        <?php dynamic_sidebar( 'sidebar-2' ); ?>
+    </ul>
+        <?php endif; ?>
+    </div>
+ </div>
+  </section>
 
 <?php get_footer(); ?>
