@@ -228,7 +228,7 @@ aside.case-study-sidebar a{
 	display:flex;
 	align-items: center;
  	float: left;
- 	margin-right: 5%;
+ 	margin-right: 10%;
  	margin-top: 8.33%;
  	margin-bottom: 0;
  	/*background-color: blue;*/
@@ -241,6 +241,7 @@ aside.case-study-sidebar a{
  		/*background-color: yellow;*/
  		margin-top: 20%;
  		margin-bottom: 10%;
+ 		margin-right: 0;
 
  }
 
@@ -282,6 +283,7 @@ aside.case-study-sidebar a{
 		text-align: left;
 		width: 58.3%;
 		/*background-color: tan;*/
+
 }
  
 
