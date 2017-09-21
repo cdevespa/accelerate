@@ -109,21 +109,21 @@ aside{
 
 }
 
-aside  h3{		
-	margin-top: -.95em;
+
+
+.sidebar-content  h3{		
+	margin-top: .95em;
 	font-size: 1.25em;
 	font-style: bold;
-
-}
-
-aside ul{
 	
+
 }
+
 
  .sidebar-content h5{
 	color: 	#A8A8A8;
     position: relative;
-    top: -24em;
+    top: -25.7em;
     right: 36.2%;
     float: right;
     font-size: .88em;
@@ -132,7 +132,7 @@ aside ul{
 }
 .sidebar-content h6{
 	position: relative;
-    top: -8em;
+    top: -11.6em;
     left: 13.4%;
     float: right;
     font-size: .88em;
@@ -142,7 +142,38 @@ aside ul{
 	text-transform: uppercase;
 }
 
+aside#pi_simpletwittertweets-2.widget.PI_SimpleTwitterTweets{
+	position: relative;
+	top: -3.6em;
+}
 
+
+
+aside#mc4wp_form_widget-2.widget_mc4wp_form_widget h3.widget-title{
+	position:relative;
+	top: 2em;
+	/*color: #45ac9d;*/
+	font-family: 'Montserrat';
+	font-weight: 300;
+}
+
+div.mc4wp-form-fields{
+	display:flex;
+	flex-direction: row-reverse;
+	
+}
+div.mc4wp-form-fields{
+	position: relative;
+	bottom:-1em;
+	float:left;
+}
+
+
+input[type="button"], input[type="submit"]{
+	background-color: #45ac9d;
+	align-content: center;
+	padding-top: .65em;
+}
 
 /* Case Studies*/
 article.case-study{
