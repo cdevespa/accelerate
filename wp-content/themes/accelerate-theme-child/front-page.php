@@ -68,10 +68,12 @@ get_header(); ?>
         <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
     <ul id="secondary" class="widget-area" role="complementary">
         <?php dynamic_sidebar( 'sidebar-2' ); ?>
-        
+        <div id="follow-us-link"><a  href="' https://twitter.com/minimalist_dev '"><span>Follow Us</span> &rsaquo;</a></div>
     </ul>
         <?php endif; ?>
-   <h6><a href="https://twitter.com/minimalist_dev">Follow Us</a></h6>
+   <h6></h6>
+   <h3 class="newsletter"></h3>
+
  </div>
   </section>
 
