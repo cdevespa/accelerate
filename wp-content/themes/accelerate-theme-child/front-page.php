@@ -64,14 +64,14 @@ get_header(); ?>
    <section class="sidebar-2">
     <div class="sidebar-content">
       <h5>Recent Tweet</h5>
-      <div class="recent-posts">
-        
+      
         <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
     <ul id="secondary" class="widget-area" role="complementary">
         <?php dynamic_sidebar( 'sidebar-2' ); ?>
+        
     </ul>
         <?php endif; ?>
-    </div>
+   <h6><a href="https://twitter.com/minimalist_dev">Follow Us</a></h6>
  </div>
   </section>
 

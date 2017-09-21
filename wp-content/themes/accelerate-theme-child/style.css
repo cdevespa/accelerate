@@ -121,16 +121,26 @@ aside ul{
 }
 
  .sidebar-content h5{
-	color: grey;
+	color: 	#A8A8A8;
     position: relative;
     top: -24em;
-    right: 35%;
+    right: 36.2%;
     float: right;
     font-size: .88em;
     font-weight: 500;
-    margin-bottom: 1%;
+    
 }
-
+.sidebar-content h6{
+	position: relative;
+    top: -8em;
+    left: 13.4%;
+    float: right;
+    font-size: .88em;
+    font-family: 'Montserrat';
+	font-weight: 300;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
 
 
 
