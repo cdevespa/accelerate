@@ -50,19 +50,22 @@ function create_custom_post_types() {
     );
 
 }
-/*add_action( 'init', 'create_custom_post_types' );
+add_action( 'init', 'create_custom_post_types' );
 
-function widget_area_404() {
- 
+function accelerate_theme_child_widget_init() {
+    
     register_sidebar( array(
-        'name' => '404 Page',
-        'id' => '404',
-        'description'  => __( 'Widgets placed here will be shown on the 404 Not Found.' ),
-        'before_widget' => '<div class="et_pb_post">',
-        'after_widget' => '</div>',
-        'before_title' => '<h4 class="widgettitle">',
-        'after_title' => '</h4>',
+        'name' =>__( 'Homepage sidebar', 'accelerate-theme-child'),
+        'id' => 'sidebar-2',
+        'description' => __( 'Appears on the static front page template', 'accelerate-theme-child' ),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
     ) );
+    
 }
-add_action( 'widgets_init', 'widget_area_404' );*/
+add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
+
+
 
