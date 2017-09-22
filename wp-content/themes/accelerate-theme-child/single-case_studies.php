@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying all single case studies
  *
- * This is the template that displays all pages by default.
+ * This is the template that displays all single case pages by default.
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site will use a
  * different template.
@@ -19,7 +19,7 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div class="main-content" role="main">
-<?php while ( have_posts() ) : the_post(); 
+	<?php while ( have_posts() ) : the_post(); 
 
 		$services = get_field('services');
 		$client = get_field('client');
@@ -53,7 +53,7 @@ get_header(); ?>
 						echo wp_get_attachment_image($image_3, $size);
 					} ?>
 				</div>
-			<article class="case study">
+			
 				
 			</article>
 			<?php endwhile; // end of the loop. ?>

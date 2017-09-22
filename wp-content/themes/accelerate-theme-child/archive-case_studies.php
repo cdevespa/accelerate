@@ -25,12 +25,8 @@ get_header(); ?>
 			<aside class="case-study-sidebar">
 				<h2><?php the_title (); ?></h2>
 				<h5><?php echo $services; ?></h5>
-				
-
-				<?php the_excerpt(); ?>
+			<?php the_excerpt(); ?>
 				 <p><strong><a href="<?php the_permalink(); ?>">View Project</a></strong></p>
-
-				
 			</aside>
 				<div class="case-study-images">
 					<a href="<?php the_permalink(); ?>"></a>
