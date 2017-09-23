@@ -77,7 +77,7 @@
 
 /*twitter module*/
 
- .widget-area {
+ ul#secondary.widget-area {
 	width: 40%;
 	float: right;
 	margin: 0 15px;
@@ -86,8 +86,6 @@
 	position: relative;
 	left:5%;
 	top:-16em;
-	
-
 
 }
 
@@ -95,32 +93,26 @@ ul #secondary.widget-area{
 	float: left;
 	
 }
-.widget-area ul{
+#secondary.widget-area ul{
 	
 	list-style-type: none;
 	margin:0;
 	padding: 0;
-
-}
-
-aside{
-	display:flex;
-	flex-direction: column;
-
 }
 
 
-.sidebar-content  h3{		
+#secondary.widget-area h3{		
 	margin-top: .95em;
 	font-size: 1.25em;
 	font-style: bold;
 }
 
 
- .sidebar-content h5{
+ div.sidebar-content h5{
+ 	
 	color: 	#A8A8A8;
     position: relative;
-    top: -25.7em;
+    top: -26.9em;
     right: 36.2%;
     float: right;
     font-size: .88em;
@@ -129,7 +121,7 @@ aside{
 }
 div #follow-us-link  {
 	position: relative;
-    top: -11.6em;
+    top: -4.6em;
     float: left;
     font-size: .88em;
     font-family: 'Montserrat';
@@ -139,40 +131,11 @@ div #follow-us-link  {
 	
 }
 
-
-
 aside#pi_simpletwittertweets-2.widget.PI_SimpleTwitterTweets{
 	position: relative;
-	top: -3.6em;
+	top: -4.7em;
 }
 
-
-
-aside#mc4wp_form_widget-2.widget_mc4wp_form_widget h3.widget-title{
-	position:relative;
-	top: 2em;
-	color: #45ac9d;
-	font-family: 'Montserrat';
-	font-weight: 300;
-}
-
-div.mc4wp-form-fields{
-	display:flex;
-	flex-direction: row-reverse;
-	
-}
-div.mc4wp-form-fields{
-	position: relative;
-	bottom:-1em;
-	float:left;
-}
-
-
-input[type="button"], input[type="submit"]{
-	background-color: #45ac9d;
-	align-content: center;
-	padding-top: .65em;
-}
 
 /* Case Studies*/
 article.case-study{
@@ -283,7 +246,6 @@ aside.case-study-sidebar a{
 .about-page   {
     background: url("img/half-taxi.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
     margin: 0 0 1em;
-    
 }
 
 .about-page  h2{
@@ -301,15 +263,10 @@ aside.case-study-sidebar a{
 	bottom: 90px;
 }
 
- 
 
 /* About Page Services Section*/
 
 .site-content .services h4{
-	/* display:flex; */
-	/*color:red;*/
-	/* justify-content: center;
-	margin-top: 8%; */
 
 }
 
@@ -333,60 +290,57 @@ aside.case-study-sidebar a{
  	margin-right: 10%;
  	margin-top: 5%;
  	margin-bottom: 0;
- 	/*background-color: blue;*/
  }
 
 .service-types:nth-child(even) figure{
- 		/* display: flex; */
- 		/* align-items: center; */
 		 float: right;
- 		/*background-color: yellow;*/
- 		/* margin-top: 20%; */
- 		/* margin-bottom: 10%;
- 		margin-right: 0; */
-
  }
 
   .service-types h2 a{
- 		font-weight: 400;
- 		/*background-color: yellow;*/
- 		/* width: 30%;
- 		float:left; */
- 		/* margin-top: 10.6%; */
- 		
+ 		font-weight: 400;		
  }
 
   .service-types:nth-child(even) h2 a{
   
 		margin-bottom: 0;
-		text-align: left;
-		/*background-color: orange;*/
-		/* clear:left;
-		margin-top: 13.52%; */
+		text-align: left;		
 }
-
 
 	.service-types .service-content {
  		float:left;
- 		/*background-color: green;*/
+ 		
  		width: 60%;
  		margin-top: 1%;
  		margin-left: 0;
- 		/*margin-bottom: 2%;*/
+ 		
  		padding:0;
  		text-align: left;
  }
 
 .service-types:nth-child(even) p{
-		/* margin-bottom: 15%; */
+		
 		text-align: left;
-		/* width: 58.3%; */
-		/*background-color: tan;*/
-
 }
  
- 
+/* Blog Page Sidebar sign-up*/
 
+
+div.mc4wp-form-fields{
+	display:flex;
+	flex-direction: row-reverse;
+	
+}
+div.mc4wp-form-fields{
+	position: relative;
+	bottom: 1.5em;
+	float:left;
+}
+
+#mc4wp-form-1 div p input[type="button"], input[type="submit"]{
+	background-color: #45ac9d;
+	align-content: center;
+	padding-top: .65em;
+}
 
 
 /* 404 */
